@@ -76,7 +76,7 @@ def build_mock_chat_response(
         reply = (
             "Please share your city or barangay so I can suggest nearby facilities."
             if response_language == "en"
-            else "Pakibigay ang city o barangay mo para makapagrekomenda ako ng malapit na pasilidad."
+            else "Pakibigay ang city o barangay mo para makapagrekomenda ako ng quitmalapit na pasilidad."
         )
         return ChatResponse(
             session_id=payload.session_id,
