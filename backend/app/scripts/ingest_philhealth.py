@@ -9,8 +9,8 @@ from vertexai.language_models import TextEmbeddingModel, TextEmbeddingInput
 from dotenv import load_dotenv
 
 
-DOTENV_PATH = r"C:\Users\Renz\nura-rag\.env"
-PDF_PATH = r"C:\Users\Renz\Nura\data\guidelines\philhealth_benefits.pdf"
+DOTENV_PATH = r"C:\Users\Charles\Documents\nura-rag\nura-rag\.env"
+PDF_PATH = r"C:\Users\Charles\Documents\nura-rag\nura-rag\backend\app\data\guidelines\philhealth_benefits.pdf"
 load_dotenv(dotenv_path=DOTENV_PATH)
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
